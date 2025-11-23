@@ -1,27 +1,28 @@
-﻿# nova-ui.dev
-NovaUI Builder – Project Overview
+Nova UI Builder
 
-NovaUI Builder is a modern, fast, and intuitive web application designed to help developers create stunning UI components with ease.
-Built on a powerful stack—Vite, React, TypeScript, Tailwind CSS, and shadcn-ui—NovaUI Builder offers exceptional performance, clean architecture, and a seamless editing experience through Lovable.
+Nova UI Builder is a cross-platform UI building environment that runs on both Android and Web, powered by a hybrid architecture using TypeScript, OpenCV, and JNI-based native processing for high-performance frame handling.
 
 🚀 Features
+Android
 
-⚡ Ultra-fast development powered by Vite
+Real-time camera frame processing using OpenCV + JNI
 
-🎨 Beautiful UI components using Tailwind CSS + shadcn-ui
+Native acceleration for image transformations
 
-🛠 Type-safe development with TypeScript
+Smooth rendering pipeline (Camera → JNI → OpenCV → RenderView)
 
-🔁 Instant preview with auto-reload during development
+Works on ARM devices with NDK support
 
-🤖 AI-assisted editing directly inside Lovable
+Efficient memory management for large frame processing
 
-☁️ One-click deployment and sync with GitHub
+Web
 
-🌐 Support for custom domains
+Web-based UI editor built with TypeScript + React
 
-🛠️ How to Edit NovaUI Builder
+Drag-and-drop UI layout
 
-You can edit this project in multiple ways depending on your workflow.
+Live preview system
 
-Perfect for rapid development and AI-powered enhancements.
+API bridges to sync UI elements with native Android logic
+
+Modular and scalable component structure
